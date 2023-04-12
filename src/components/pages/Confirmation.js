@@ -9,7 +9,7 @@ export default function Confirmation() {
         alt="Little Lemon Ingredients"
       ></img>
       <section className="reserve-header-text">
-        <h1>Your Reservation is Confirmed!</h1>
+        <h1>Your seat is Booked!</h1>
         <h4>A confirmation message has been sent to your email.</h4>
         <h4>Thanks for dining with us!</h4>
       </section>
@@ -23,9 +23,7 @@ export default function Confirmation() {
         >
           Browse Menu
         </a>
-        <Link className="redirect-button" to="/order">
-          Order Online
-        </Link>
+        
         <Link className="redirect-button" to="/">
           Home Page
         </Link>

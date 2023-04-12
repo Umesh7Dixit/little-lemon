@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Navigation(props) {
+const Navigation = (props)=>{
   return (
     <menu className={`navbar-menu ${props.device}`}>
       {props.device === "mobile" ? (
@@ -40,3 +40,6 @@ export default function Navigation(props) {
     </menu>
   );
 }
+
+
+export default Navigation;

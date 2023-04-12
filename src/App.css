@@ -60,6 +60,8 @@ Link:link {
   border-radius: 0.2rem;
   font-family: "Karla";
   font-size: 2rem;
+  border-radius: 10px ;
+
 }
 
 .action-button:hover {
@@ -123,6 +125,7 @@ Link:link {
   font-size: 3rem;
   margin-top: 0rem;
   margin-bottom: -3rem;
+  color: #d2b10e;
 }
 
 .hero-text > h2 {
@@ -135,9 +138,11 @@ Link:link {
 }
 
 .hero-image > img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   object-fit: cover;
+  border-radius: 12px;
+  margin-top: 50px;
 }
 
 /* SPECIALS */
@@ -168,12 +173,14 @@ Link:link {
 .menu-card {
   background-color: #edefee;
   padding-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .menu-card > img {
   height: 25vh;
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .menu-card-content {
@@ -188,6 +195,7 @@ Link:link {
 .menu-card-content > h3 {
   font-size: 1.8rem;
   margin: 0;
+  color: orangered;
 }
 
 .special-button {
@@ -195,6 +203,7 @@ Link:link {
   border-radius: 0.2rem;
   font-size: 1.5rem;
   padding: 0.5rem;
+  border-radius: 10px;
 }
 
 .special-button:hover {
@@ -235,6 +244,7 @@ Link:link {
 .testimonial-card {
   background-color: #edefee;
   padding: 1rem 1rem 0 1rem;
+  border-radius: 10px;
 }
 
 .testimonial-card > img {
@@ -277,6 +287,7 @@ Link:link {
   width: 60%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .about-1 {
@@ -503,7 +514,7 @@ footer > menu {
   }
 
   .hero-text > h2 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
   }
 
